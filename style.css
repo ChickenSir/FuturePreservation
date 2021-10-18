@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A3341;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #12242e;
+}
+.logo {
+    float: left;
+    display: block;
+    padding: 16px 14px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: #1A3341;
+}
+.nav-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+    display: block;
+    block-size: 450px;
+    padding: 16px 14px;
+    background-color: #43545F;
+    float: top;
+    text-align: center;
+}
+.image-content {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #11222c;
+    opacity: 0.5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 500px;
+}
+.image-block2 {
+    position: absolute;
+    top: 235px;
+    left: 20px;
+    background-color: #11222c;
+    opacity: 0.5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 500px;
+}
+.image-block3 {
+    position: absolute;
+    top: 435px;
+    left: 20px;
+    background-color: #11222c;
+    opacity: 0.5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 500px;
+}
+.background-img {
+    width: 100%;
+    display: block;
+}
+.button {
+    color: white;
+    padding: 16px 32px;
+    background-color: yellowgreen;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    margin-left: 135px;
+    display: block;
+}
+.button2 {
+    color: white;
+    padding: 16px 32px;
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 2.5px;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.tier-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #11222c;
+    opacity: 0.75;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 30.5%;
+    height: 50%;
+}
+.tier-block2 {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    background-color: #11222c;
+    opacity: 0.75;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 30.5%;
+    height: 50%;
+}
+.tier-block3 {
+    position: absolute;
+    top: 20px;
+    left: 960px;
+    background-color: #11222c;
+    opacity: 0.75;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 30.5%;
+    height: 50%;
+}
+.text-field {
+    float: left;
+    margin-top: 67px;
+    padding: 14px 25px;
+}
+.about-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #11222c;
+    opacity: 0.5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 30.5%;
+    height: 275px;
+}
+.about-block2 {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    background-color: #11222c;
+    opacity: 0.5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 30.5%;
+    height: 275px;
+}
+.about-block3 {
+    position: absolute;
+    top: 20px;
+    left: 960px;
+    background-color: #11222c;
+    opacity: 0.5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 30.5%;
+    height: 275px;
+}
+.field {
+    width: 250px;
+    height: 25px;
+}
+.detail-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    opacity: 0.75;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 30.5%;
+}
+.footer {
+    display: block;
+    block-size: 225px;
+    padding: 16px 14px;
+    background-color: #3A5147;
+    float: top;
+    text-align: center;
+}
